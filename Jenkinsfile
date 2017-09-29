@@ -2,21 +2,21 @@ pipeline{
     agent any
 
     stages{
-        stage('Compile Stage'){
+        stage('Compiling Stage'){
 
             steps{
                 sh 'python sample.py'
             }
         }
 
-        stage('Test Stage'){
+        stage('Testing Stage'){
 
             steps{
                 sh 'python sample.py'
             }
         }
 
-        stage('Publish Stage'){
+        stage('Publishing Stage'){
 
             steps{
                 sh 'python sample.py'
