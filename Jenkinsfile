@@ -7,9 +7,6 @@ pipeline{
             steps{
                 sh 'python sample.py'
             }
-
         }
-
     }
-
 }
