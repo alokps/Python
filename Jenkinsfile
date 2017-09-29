@@ -8,5 +8,20 @@ pipeline{
                 sh 'python sample.py'
             }
         }
+
+        stage('Test Stage'){
+
+            steps{
+                sh 'python sample.py'
+            }
+        }
+
+        stage('Publish Stage'){
+
+            steps{
+                sh 'python sample.py'
+            }
+        }
+
     }
 }
