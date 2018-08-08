@@ -17,6 +17,7 @@ class Sample:
         for x in self.stack_list:
             print(x)
 
+
 if __name__ == '__main__':
     instance = Sample()
     print(instance.is_empty())

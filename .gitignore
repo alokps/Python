@@ -1,0 +1,8 @@
+# Exclude PyCharm Setup Files
+.idea/*.*
+
+# Exclude all .pyc files
+.pyc
+
+# Exclude PyCache File
+__pycache__
