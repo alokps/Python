@@ -1,5 +1,5 @@
 # Exclude PyCharm Setup Files
-.idea/*.*
+.idea/
 
 # Exclude all .pyc files
 .pyc

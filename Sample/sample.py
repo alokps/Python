@@ -1,20 +1,20 @@
 
-class Sample:
+class Sample(object):
 
     def __init__(self):
-        self.stack_list = []
+        self._stack_list = list()
 
     def push_value(self, value):
-        self.stack_list.append(value)
+        self._stack_list.append(value)
 
     def is_empty(self):
-        return self.stack_list == []
+        return self._stack_list == []
 
     def pop_value(self):
-        return self.stack_list.pop()
+        return self._stack_list.pop()
 
     def print_stack_value(self):
-        for x in self.stack_list:
+        for x in self._stack_list:
             print(x)
 
 
